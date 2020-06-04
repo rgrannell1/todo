@@ -39,7 +39,11 @@ This is an example todo list compatable with this tool.
 
 ```
 
-Usage:
+## Why?
+
+I rely heavily on todo lists when working. Historically I used Trello, but I want to experiment with purely text-based lists.
+
+## Usage:
 ```sh
 
 ```
