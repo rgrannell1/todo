@@ -3,7 +3,7 @@
 
 Manage and analyse a todo list.
 
-```md
+```
 # My Tasks
 
 This is an example todo list compatable with this tool.
