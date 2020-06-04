@@ -5,30 +5,10 @@ const fs = require('fs').promises
 const errors = require('@rgrannell/errors')
 
 const constants = require('../commons/constants')
-
-const isToken = {}
-
-isToken.h1 = data => {
-  return data.type === 'heading' && data.depth === 1
-}
-
-isToken.h2 = data => {
-  return data.type === 'heading' && data.depth === 2
-}
-
-isToken.h3 = data => {
-  return data.type === 'heading' && data.depth === 3
-}
-
-isToken.list = data => {
-  return data.type === 'list'
-}
-
-isToken.paragraph = data => {
-  return data.type === 'paragraph'
-}
+const isToken = require('../commons/is-token')
 
 /**
+ * Parse individual todo items.
  *
  * @param {string} text a todo list item
  *
@@ -249,6 +229,5 @@ const todo = async rawArgs => {
     console.log(JSON.stringify(todo))
   }
 }
-
 
 module.exports = todo
