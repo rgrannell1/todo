@@ -1,7 +1,7 @@
 
 # todo
 
-Manage and analyse a todo list.
+Analyse a todo list.
 
 ```
 # My Tasks
@@ -36,5 +36,10 @@ This is an example todo list compatable with this tool.
 #### Notes
 
 - This is some note describing other details from that day.
+
+```
+
+Usage:
+```sh
 
 ```
